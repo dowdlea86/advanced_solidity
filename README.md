@@ -67,8 +67,8 @@ Confirmation looks as follows from MetaMask:
 In Mycrypto we can do the same thing, we can add the token using the token address we created<br>
 and can send a transaction.<br>
 
-![mycrypto_address(https://github.com/dowdlea86/advanced_solidity/blob/main/png_files/mycrypto_address.png)
+![mycrypto_address](https://github.com/dowdlea86/advanced_solidity/blob/main/png_files/mycrypto_address.png)
 
 A confirmation of the transaction will look as follows:
 
-![mycrypto_confirmation(https://github.com/dowdlea86/advanced_solidity/blob/main/png_files/mycrypto_confirmation.png)
+![mycrypto_confirmation](https://github.com/dowdlea86/advanced_solidity/blob/main/png_files/mycrypto_confirmation.png)

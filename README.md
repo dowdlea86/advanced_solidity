@@ -18,12 +18,12 @@ that suit our requirements. Along with calling the OpenZepplin contracts we will
 in the payable wallet, rate, open time, clsoe time, among others.  Our PupperCoinSale contract<br>
 should look as follows:<br>
 
-!
+![sale_deployer](https://github.com/dowdlea86/advanced_solidity/blob/main/png_files/sale_deployer.png)
 
 We will then write another contract that deployes the sale and the PupperCoinSaleDeployer<br>
 will look as follows:<br>
 
-!
+![coin_deployer_contract](https://github.com/dowdlea86/advanced_solidity/blob/main/png_files/coin_deployer_contract)
 
 After our code is written and succesfully compiled we will use the deploy contract, we need<br>
 to fill in the relevant information that includes our wallet, name, symbol, and our goal or<b>

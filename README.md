@@ -71,4 +71,4 @@ and can send a transaction.<br>
 
 A confirmation of the transaction will look as follows:
 
-![mycrypto_confirmation(https://github.com/dowdlea86/advanced_solidity/blob/main/png_files/mycrypto_confirmation.png)
+![mycrypto_confirmation(https://github.com/dowdlea86/advanced_solidity/blob/main/png_files/mycrypto_confirmation.png) 

@@ -31,9 +31,9 @@ contract PupperCoinSaleDeployer {
     
     uint fakenow = now; 
     
-    function fastforward() public {
-            fakenow += 5 minutes;
-        }
+    //function fastforward() public {
+    //        now += 5 minutes;
+    //    }
         
 
     constructor(
@@ -49,7 +49,7 @@ contract PupperCoinSaleDeployer {
         PupperCoin token = new PupperCoin(name, symbol, 0);
         token_address = address(token);
         
-        PupperCoinSale token_sale = new PupperCoinSale(token, wallet, goal, 1, fakenow, fakenow + 10 minutes);
+        PupperCoinSale token_sale = new PupperCoinSale(token, wallet, goal, 1, now, now + 5 minutes);
         token_sale_address = address(token_sale);
 
         token.addMinter(token_sale_address);
